@@ -1,0 +1,40 @@
+Potrebno je kreirati aplikaciju koja će omogućiti Diznilendu da vodi evidenciju o broju posetilaca u jednom
+
+danu za određeni vremenski period. Aplikacija se može koristiti za različite tipove podataka. Korisnik
+
+aplikacije može dodati podatke o novom danu nak raj kolekcije. Ukoliko je kolekciju puna potrebno je
+
+proširiti je za 50%. Korisnik može obrisati evidenciju o prvih X dana iz kolekcije, navođenjem broja X.
+
+Ukoliko je vrednost X nevalidna prijaviti grešku. Za potrebe statistike, potrebno je omogućiti izračunavanje
+
+ukupnog broja posetilaca između dva dana (korisnik unosi redne brojeve dana). Ukoliko korisnik unese
+
+nevalidne redne brojeve dana potrebno je prijaviti grešku. Takođe, potrebno je odrediti I vratiti redne brojeve
+
+dva dana kada je zarada bila najmanja. Aplikacija može da kopira sadržaj jedne kolekcije u drugu.
+
+Rukovodstvo Diznilenda instaliraće aplikaciju u dva sektora, interaktivnom i izložbenom. Interaktivni sector
+
+vodiće evidenciju samo na osnovu ukupnog broja posetilaca u jednom danu (kolekcija se sastoji od
+
+celobrojnog tipa podataka), jer je karta za ulazak u interaktivni sektor ista za sve posetioce. Izložbeni sektor
+
+vodiće detaljnu analizu o broju posetilac, jer u izložbnemo sektoru postoje različiti tipovi posetilaca (kolekcija
+
+se sastoji od podataka tipa izlozbeniPosetioci).
+
+IzlozbeniPosetioci se sastoji od broja odraslih posetilaca, broja školske dece i broja dece do 7 godina u jednom
+
+danu. Ukupan broj posetilaca računa se kao zbir sva tri tipa posetilaca. Međutim, poređenje zarade, u
+
+izložbenom sektoru, u jednom danu zavisi od tipa posetilaca. Deca do 7 godina ne plaćaju kartu, dok školska
+
+deca plaćaju upola cenu karte odraslih osoba.
+
+U glavnom programu proveriti rad aplikacije za oba sektora Diznilenda. Dodati evidencije za najmanje 5 dana
+
+u oba sektora. Prikazati dane sa najmanjom zaradom I ukupan broj posetilaca između drugog i četvrtog dana.
+
+Obrisati prva 2 dana. 
+
